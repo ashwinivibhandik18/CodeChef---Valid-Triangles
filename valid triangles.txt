@@ -1,0 +1,13 @@
+
+#Valid Triangles
+
+t=int(input())
+ans=[]
+for i in range(t):
+    a,b,c=map(int,input().split())
+    if a+b+c==180:
+        ans.append("YES")
+    else:
+        ans.append("NO")
+for i in ans:
+    print(i)
